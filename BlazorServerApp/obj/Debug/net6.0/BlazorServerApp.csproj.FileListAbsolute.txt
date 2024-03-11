@@ -68,7 +68,6 @@ B:\GitHub BackUp\SignalR-Test-Sample\BlazorServerApp\obj\Debug\net6.0\BlazorServ
 B:\GitHub BackUp\SignalR-Test-Sample\BlazorServerApp\obj\Debug\net6.0\BlazorServerApp.AssemblyInfoInputs.cache
 B:\GitHub BackUp\SignalR-Test-Sample\BlazorServerApp\obj\Debug\net6.0\BlazorServerApp.AssemblyInfo.cs
 B:\GitHub BackUp\SignalR-Test-Sample\BlazorServerApp\obj\Debug\net6.0\BlazorServerApp.csproj.CoreCompileInputs.cache
-B:\GitHub BackUp\SignalR-Test-Sample\BlazorServerApp\obj\Debug\net6.0\BlazorServerApp.MvcApplicationPartsAssemblyInfo.cache
 B:\GitHub BackUp\SignalR-Test-Sample\BlazorServerApp\obj\Debug\net6.0\BlazorServerApp.RazorAssemblyInfo.cache
 B:\GitHub BackUp\SignalR-Test-Sample\BlazorServerApp\obj\Debug\net6.0\BlazorServerApp.RazorAssemblyInfo.cs
 B:\GitHub BackUp\SignalR-Test-Sample\BlazorServerApp\obj\Debug\net6.0\BlazorServerApp.sourcelink.json

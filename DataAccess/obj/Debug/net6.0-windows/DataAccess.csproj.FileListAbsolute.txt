@@ -1,0 +1,13 @@
+B:\GitHub BackUp\SignalR-Test-Sample\DataAccess\bin\Debug\net6.0-windows\DataAccess.deps.json
+B:\GitHub BackUp\SignalR-Test-Sample\DataAccess\bin\Debug\net6.0-windows\DataAccess.dll
+B:\GitHub BackUp\SignalR-Test-Sample\DataAccess\bin\Debug\net6.0-windows\DataAccess.pdb
+B:\GitHub BackUp\SignalR-Test-Sample\DataAccess\obj\Debug\net6.0-windows\DataAccess.csproj.AssemblyReference.cache
+B:\GitHub BackUp\SignalR-Test-Sample\DataAccess\obj\Debug\net6.0-windows\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+B:\GitHub BackUp\SignalR-Test-Sample\DataAccess\obj\Debug\net6.0-windows\DataAccess.AssemblyInfoInputs.cache
+B:\GitHub BackUp\SignalR-Test-Sample\DataAccess\obj\Debug\net6.0-windows\DataAccess.AssemblyInfo.cs
+B:\GitHub BackUp\SignalR-Test-Sample\DataAccess\obj\Debug\net6.0-windows\DataAccess.csproj.CoreCompileInputs.cache
+B:\GitHub BackUp\SignalR-Test-Sample\DataAccess\obj\Debug\net6.0-windows\DataAccess.sourcelink.json
+B:\GitHub BackUp\SignalR-Test-Sample\DataAccess\obj\Debug\net6.0-windows\DataAccess.dll
+B:\GitHub BackUp\SignalR-Test-Sample\DataAccess\obj\Debug\net6.0-windows\refint\DataAccess.dll
+B:\GitHub BackUp\SignalR-Test-Sample\DataAccess\obj\Debug\net6.0-windows\DataAccess.pdb
+B:\GitHub BackUp\SignalR-Test-Sample\DataAccess\obj\Debug\net6.0-windows\ref\DataAccess.dll

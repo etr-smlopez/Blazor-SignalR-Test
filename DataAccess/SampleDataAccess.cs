@@ -10,7 +10,7 @@ namespace DataAccess
     public class SampleDataAccess
     {
         private readonly IMemoryCache _memoryCache;
-
+ 
         public SampleDataAccess(IMemoryCache memoryCache)
         { 
             _memoryCache = memoryCache;
