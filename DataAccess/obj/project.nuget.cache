@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "pPWvPjJocbFA2yvpdFg5cJYyfFdfLm5RWEIMXKmufISr9WfSwzoBygk+Z5EZfb9sLHrilg/HYHSnrcMfyGbucg==",
+  "dgSpecHash": "1tQHCKG5Ogv3t3I7a3lspscu+GeMEIKzb+AbLxITai+8/kFXwI5HXblxtFJoT9Q9eBXXyjwxGs8kGYQPuSjlmg==",
   "success": true,
   "projectFilePath": "B:\\GitHub BackUp\\SignalR-Test-Sample\\DataAccess\\DataAccess.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.0\\microsoft.extensions.caching.memory.6.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

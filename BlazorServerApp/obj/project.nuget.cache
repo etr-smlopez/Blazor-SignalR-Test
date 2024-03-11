@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wtwt5HfM0mSCCWWcn+5sj5d0VtEj8+bNnXuxpaRYvlRFmgmulGL0/e/XiIaL/SpA6PCitsWTDqbph1z1dtojKA==",
+  "dgSpecHash": "zJUwGxbMYHQotCpLuNvQcEZoZR1KZSc2/1r0oQgRCYlJX1OjfjAtHYEzklshGOfIB27xSihkZ/UlMaA7oHIRPw==",
   "success": true,
   "projectFilePath": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\BlazorServerApp.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,8 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\6.0.6\\microsoft.aspnetcore.signalr.client.core.6.0.6.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\6.0.6\\microsoft.aspnetcore.signalr.common.6.0.6.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\6.0.6\\microsoft.aspnetcore.signalr.protocols.json.6.0.6.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.0\\microsoft.extensions.caching.memory.6.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.features\\6.0.6\\microsoft.extensions.features.6.0.6.nupkg.sha512",

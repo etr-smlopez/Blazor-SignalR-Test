@@ -9,3 +9,16 @@ B:\Test Projects\Blazor SignalR Test\DataAccess\obj\Debug\net6.0\DataAccess.dll
 B:\Test Projects\Blazor SignalR Test\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
 B:\Test Projects\Blazor SignalR Test\DataAccess\obj\Debug\net6.0\DataAccess.pdb
 B:\Test Projects\Blazor SignalR Test\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+B:\GitHub BackUp\SignalR-Test-Sample\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+B:\GitHub BackUp\SignalR-Test-Sample\DataAccess\bin\Debug\net6.0\DataAccess.dll
+B:\GitHub BackUp\SignalR-Test-Sample\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+B:\GitHub BackUp\SignalR-Test-Sample\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+B:\GitHub BackUp\SignalR-Test-Sample\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+B:\GitHub BackUp\SignalR-Test-Sample\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+B:\GitHub BackUp\SignalR-Test-Sample\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+B:\GitHub BackUp\SignalR-Test-Sample\DataAccess\obj\Debug\net6.0\DataAccess.sourcelink.json
+B:\GitHub BackUp\SignalR-Test-Sample\DataAccess\obj\Debug\net6.0\DataAccess.dll
+B:\GitHub BackUp\SignalR-Test-Sample\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+B:\GitHub BackUp\SignalR-Test-Sample\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+B:\GitHub BackUp\SignalR-Test-Sample\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+B:\GitHub BackUp\SignalR-Test-Sample\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
