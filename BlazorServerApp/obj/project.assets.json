@@ -311,6 +311,16 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataAccess.dll": {}
+        }
       }
     }
   },
@@ -743,10 +753,16 @@
         "system.threading.channels.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../DataAccess/DataAccess.csproj",
+      "msbuildProject": "../DataAccess/DataAccess.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "DataAccess >= 1.0.0",
       "Microsoft.AspNetCore.Connections.Abstractions >= 6.0.6",
       "Microsoft.AspNetCore.Http.Connections.Client >= 6.0.6",
       "Microsoft.AspNetCore.Http.Connections.Common >= 6.0.6",
@@ -775,11 +791,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "B:\\Test Projects\\Blazor SignalR Test\\BlazorServerApp\\BlazorServerApp.csproj",
+      "projectUniqueName": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\BlazorServerApp.csproj",
       "projectName": "BlazorServerApp",
-      "projectPath": "B:\\Test Projects\\Blazor SignalR Test\\BlazorServerApp\\BlazorServerApp.csproj",
+      "projectPath": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\BlazorServerApp.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "B:\\Test Projects\\Blazor SignalR Test\\BlazorServerApp\\obj\\",
+      "outputPath": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -801,7 +817,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "B:\\GitHub BackUp\\SignalR-Test-Sample\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "B:\\GitHub BackUp\\SignalR-Test-Sample\\DataAccess\\DataAccess.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

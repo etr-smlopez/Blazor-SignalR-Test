@@ -41,3 +41,5 @@ B:\Test Projects\Blazor SignalR Test\BlazorServerApp\obj\Debug\net6.0\refint\Bla
 B:\Test Projects\Blazor SignalR Test\BlazorServerApp\obj\Debug\net6.0\BlazorServerApp.pdb
 B:\Test Projects\Blazor SignalR Test\BlazorServerApp\obj\Debug\net6.0\BlazorServerApp.genruntimeconfig.cache
 B:\Test Projects\Blazor SignalR Test\BlazorServerApp\obj\Debug\net6.0\ref\BlazorServerApp.dll
+B:\Test Projects\Blazor SignalR Test\BlazorServerApp\bin\Debug\net6.0\DataAccess.dll
+B:\Test Projects\Blazor SignalR Test\BlazorServerApp\bin\Debug\net6.0\DataAccess.pdb

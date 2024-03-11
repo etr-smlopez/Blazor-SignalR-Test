@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0AyA4LZwqaxrEDeS9JcMKYS8IuMQki6tpZCjrnLV3CLOX+iNXAt1qM/Ys8Hzy+KZAXKq3/5ZTtdn/00t1u2DAg==",
+  "dgSpecHash": "wtwt5HfM0mSCCWWcn+5sj5d0VtEj8+bNnXuxpaRYvlRFmgmulGL0/e/XiIaL/SpA6PCitsWTDqbph1z1dtojKA==",
   "success": true,
-  "projectFilePath": "B:\\Test Projects\\Blazor SignalR Test\\BlazorServerApp\\BlazorServerApp.csproj",
+  "projectFilePath": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\BlazorServerApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\6.0.6\\microsoft.aspnetcore.connections.abstractions.6.0.6.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\6.0.6\\microsoft.aspnetcore.http.connections.client.6.0.6.nupkg.sha512",
