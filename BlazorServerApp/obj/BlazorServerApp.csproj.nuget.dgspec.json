@@ -83,6 +83,10 @@
               "target": "Package",
               "version": "[6.0.6, )"
             },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -110,6 +114,10 @@
             "Microsoft.Extensions.Primitives": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "SqlTableDependency": {
+              "target": "Package",
+              "version": "[8.5.8, )"
             },
             "System.Diagnostics.DiagnosticSource": {
               "target": "Package",
