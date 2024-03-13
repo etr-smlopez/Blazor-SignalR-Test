@@ -20,6 +20,8 @@ builder.Services.AddSingleton<WeatherForecastService>();
 builder.Services.AddTransient<SampleDataAccess>();
 builder.Services.AddSingleton<EmployeeService>();
 builder.Services.AddMemoryCache();
+builder.Services.AddDbContext<AppDbContext>(); 
+
 builder.Services.AddResponseCompression(opts =>
 {
     opts.MimeTypes = ResponseCompressionDefaults.MimeTypes.Concat(

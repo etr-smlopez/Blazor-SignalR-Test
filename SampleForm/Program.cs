@@ -1,3 +1,5 @@
+using BlazorServerApp.Service;
+
 namespace SampleForm
 {
     internal static class Program
@@ -11,7 +13,11 @@ namespace SampleForm
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+        
+            var employeeService = new EmployeeService();
+            var costunitsService = new CostunitsService();
+            Application.Run(new Form1(employeeService, costunitsService));
+           // Application.Run(new Form1());
         }
     }
 }

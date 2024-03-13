@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccess
+namespace DataAccess.Model
 {
     public class EmployeeModel
     {
         public string FirstName { get; set; }
-    
+
         public string LastName { get; set; }
     }
 

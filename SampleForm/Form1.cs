@@ -1,3 +1,4 @@
+ 
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -10,10 +11,10 @@ using System.Windows.Forms;
 using BlazorServerApp;
 using BlazorServerApp.Data;
 using DataAccess;
-using System.Collections.Generic;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.AspNetCore.SignalR.Client;
-using BlazorServerApp.Service; 
+using BlazorServerApp.Service;
+using DataAccess.Model;
 
 namespace SampleForm
 {
@@ -22,66 +23,83 @@ namespace SampleForm
         private readonly SampleDataAccess data;
         private List<EmployeeModel> employees;
         private List<Employees> EmployeeList = new List<Employees>();
-        private HubConnection? HubConnection;
-        public Form1()
+         private List<vwCostUnits> costunitsList = new List<vwCostUnits>();
+        private HubConnection HubConnection;
+        private EmployeeService employeeService;
+        private CostunitsService costunitsService;
+
+        public Form1(EmployeeService employeeService, CostunitsService costunitsService)
         {
             InitializeComponent();
-              var memoryCache = new MemoryCache(new MemoryCacheOptions());
+            var memoryCache = new MemoryCache(new MemoryCacheOptions());
 
-            // Pass IMemoryCache to SampleDataAccess constructor
             data = new SampleDataAccess(memoryCache);
+            this.employeeService = employeeService;
+            this.costunitsService = costunitsService;
 
-            // Load employees asynchronously
-            Load += Form1_Load;// LoadEmployees();
+            Load += Form1_Load;
             LoadEmployees();
         }
 
         private async void Form1_Load(object sender, EventArgs e)
         {
-            employees = await data.GetEmployeesCache(); 
-
-            // Update UI
+            employees = await data.GetEmployeesCache();
+          
             UpdateUI();
             LoadEmployees();
         }
         private async void LoadEmployees()
         {
-            // Create an instance of EmployeeService
-            EmployeeService employeeService = new EmployeeService();
-
-            // Call the GetAllEmployees method on the instance
             EmployeeList = await employeeService.GetAllEmployees();
-            HubConnection = new HubConnectionBuilder()
-               // .WithUrl("https://localhost:5001/employeeshub") // Replace with your actual app URL
-                .WithUrl("https://localhost:7153/employeeshub") // Replace with your actual app URL
-                .Build();
-
-            HubConnection.On <List<Employees>>("RefreshEmployees", employees =>
+            costunitsList = await costunitsService.GetCostUnits();
+    
+            // Add the list of employees to the cache
+            data.AddEmployeesToCache(EmployeeList.Select(e => new EmployeeModel
             {
-                //EmployeeList = employees;
-                //InvokeAsync(StateHasChanged);
-                UpdateUI();
-            });
+                FirstName = e.FirstName,
+                LastName = e.LastName,
+                // Add other properties as needed
+            }).ToList());
 
-       await HubConnection.StartAsync();
-        } 
-        
-        //private async void LoadEmployees()
-        //{
-        //    // Use async/await to load employees asynchronously
-        //    employees = await data.GetEmployeesCache();
+            data.AddCostUnitsToCache(costunitsList.Select(e => new CostUnitsModel
+            {
 
-        //    // Update UI
-        //    UpdateUI();
-        //}
+                Type = e.Type
+                // Add other properties as needed
+            }).ToList());
+
+            //if (HubConnection == null)
+            //{
+            //    HubConnection = new HubConnectionBuilder()
+            //        .WithUrl("https://localhost:7153/employeeshub") // Replace with your actual app URL
+            //        .Build();
+
+            //    HubConnection.On<List<Employees>>("RefreshEmployees", employees =>
+            //    {
+            //        UpdateUI();
+            //    });
+
+            //    await HubConnection.StartAsync();
+            //}
+        }
+
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            if (HubConnection != null)
+            {
+                HubConnection.DisposeAsync();
+            }
+
+            base.OnFormClosing(e);
+        }
 
         private void UpdateUI()
         {
             if (employees is not null)
             {
+                label1.Text = string.Empty;
                 foreach (var e in employees)
                 {
-                    // Display employee names in a Label or any other UI element
                     label1.Text += $"{e.FirstName} {e.LastName}\n";
                 }
             }
@@ -89,20 +107,35 @@ namespace SampleForm
             {
                 label1.Text = "Loading...";
             }
-            dataGridView1.Rows.Clear();
+            //dataGridView1.Rows.Clear();
 
-            // Update DataGridView with the latest employee data
-            foreach (var employee in EmployeeList)
+            //foreach (var employee in EmployeeList)
+            //{
+            //    dataGridView1.Rows.Add(employee.FirstName, employee.LastName /* other properties */);
+            //}
+            //dataGridView1.Refresh();
+
+            if (EmployeeList is not null)
             {
-                // Add a new row to the DataGridView
-                dataGridView1.Rows.Add(employee.FirstName, employee.LastName  /* other properties */);
+                dataGridView1.DataSource = EmployeeList;
+                dataGridView1.Refresh();
+            }
+            else
+            {
+                label1.Text = "Loading...";
             }
 
-            // Optionally, you can customize DataGridView appearance or behavior here
-
-            // Refresh the DataGridView
-            dataGridView1.Refresh();
+            if (costunitsList is not null)
+            {
+                dataGridView2.DataSource = costunitsList;
+                dataGridView2.Refresh();
+            }
+            else
+            {
+                label1.Text = "Loading...";
+            }
         }
     }
 
 }
+ 

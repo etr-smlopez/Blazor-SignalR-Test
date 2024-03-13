@@ -30,9 +30,9 @@
         {
             label1 = new Label();
             dataGridView1 = new DataGridView();
-            colFirstName = new DataGridViewTextBoxColumn();
-            colLastName = new DataGridViewTextBoxColumn();
+            dataGridView2 = new DataGridView();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -46,39 +46,36 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { colFirstName, colLastName });
             dataGridView1.Location = new Point(12, 135);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 53;
             dataGridView1.RowTemplate.Height = 31;
-            dataGridView1.Size = new Size(776, 303);
+            dataGridView1.Size = new Size(386, 303);
             dataGridView1.TabIndex = 1;
             // 
-            // colFirstName
+            // dataGridView2
             // 
-            colFirstName.HeaderText = "First Name";
-            colFirstName.MinimumWidth = 7;
-            colFirstName.Name = "colFirstName";
-            colFirstName.Width = 130;
-            // 
-            // colLastName
-            // 
-            colLastName.HeaderText = "Last Name";
-            colLastName.MinimumWidth = 7;
-            colLastName.Name = "colLastName";
-            colLastName.Width = 130;
+            dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView2.Location = new Point(402, 135);
+            dataGridView2.Name = "dataGridView2";
+            dataGridView2.RowHeadersWidth = 53;
+            dataGridView2.RowTemplate.Height = 31;
+            dataGridView2.Size = new Size(386, 303);
+            dataGridView2.TabIndex = 2;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(dataGridView2);
             Controls.Add(dataGridView1);
             Controls.Add(label1);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -87,7 +84,6 @@
 
         private Label label1;
         private DataGridView dataGridView1;
-        private DataGridViewTextBoxColumn colFirstName;
-        private DataGridViewTextBoxColumn colLastName;
+        private DataGridView dataGridView2;
     }
 }
