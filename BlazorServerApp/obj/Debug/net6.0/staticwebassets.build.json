@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Crz+MdbZgfKr3SeGq9B7AIKJGKRe2xzJFLclpg+C7tk=",
+  "Hash": "DOPjbtNsc0wJSY0Gr73EnALxJNQeaW+r+kHPLQRjsqU=",
   "Source": "BlazorServerApp",
   "BasePath": "_content/BlazorServerApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BlazorServerApp\\wwwroot",
       "Source": "BlazorServerApp",
-      "ContentRoot": "B:\\Test Projects\\Blazor SignalR Test\\BlazorServerApp\\wwwroot\\",
+      "ContentRoot": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\wwwroot\\",
       "BasePath": "_content/BlazorServerApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "B:\\Test Projects\\Blazor SignalR Test\\BlazorServerApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorServerApp.styles.css",
+      "Identity": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorServerApp.styles.css",
       "SourceId": "BlazorServerApp",
       "SourceType": "Computed",
-      "ContentRoot": "B:\\Test Projects\\Blazor SignalR Test\\BlazorServerApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BlazorServerApp",
       "RelativePath": "BlazorServerApp.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "B:\\Test Projects\\Blazor SignalR Test\\BlazorServerApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorServerApp.styles.css"
+      "OriginalItemSpec": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorServerApp.styles.css"
     },
     {
-      "Identity": "B:\\Test Projects\\Blazor SignalR Test\\BlazorServerApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorServerApp.bundle.scp.css",
+      "Identity": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorServerApp.bundle.scp.css",
       "SourceId": "BlazorServerApp",
       "SourceType": "Computed",
-      "ContentRoot": "B:\\Test Projects\\Blazor SignalR Test\\BlazorServerApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BlazorServerApp",
       "RelativePath": "BlazorServerApp.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "B:\\Test Projects\\Blazor SignalR Test\\BlazorServerApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorServerApp.bundle.scp.css"
+      "OriginalItemSpec": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorServerApp.bundle.scp.css"
     },
     {
-      "Identity": "B:\\Test Projects\\Blazor SignalR Test\\BlazorServerApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "BlazorServerApp",
       "SourceType": "Discovered",
-      "ContentRoot": "B:\\Test Projects\\Blazor SignalR Test\\BlazorServerApp\\wwwroot\\",
+      "ContentRoot": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\wwwroot\\",
       "BasePath": "_content/BlazorServerApp",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "B:\\Test Projects\\Blazor SignalR Test\\BlazorServerApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "BlazorServerApp",
       "SourceType": "Discovered",
-      "ContentRoot": "B:\\Test Projects\\Blazor SignalR Test\\BlazorServerApp\\wwwroot\\",
+      "ContentRoot": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\wwwroot\\",
       "BasePath": "_content/BlazorServerApp",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "B:\\Test Projects\\Blazor SignalR Test\\BlazorServerApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "BlazorServerApp",
       "SourceType": "Discovered",
-      "ContentRoot": "B:\\Test Projects\\Blazor SignalR Test\\BlazorServerApp\\wwwroot\\",
+      "ContentRoot": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\wwwroot\\",
       "BasePath": "_content/BlazorServerApp",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "B:\\Test Projects\\Blazor SignalR Test\\BlazorServerApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "BlazorServerApp",
       "SourceType": "Discovered",
-      "ContentRoot": "B:\\Test Projects\\Blazor SignalR Test\\BlazorServerApp\\wwwroot\\",
+      "ContentRoot": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\wwwroot\\",
       "BasePath": "_content/BlazorServerApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "B:\\Test Projects\\Blazor SignalR Test\\BlazorServerApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "BlazorServerApp",
       "SourceType": "Discovered",
-      "ContentRoot": "B:\\Test Projects\\Blazor SignalR Test\\BlazorServerApp\\wwwroot\\",
+      "ContentRoot": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\wwwroot\\",
       "BasePath": "_content/BlazorServerApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "B:\\Test Projects\\Blazor SignalR Test\\BlazorServerApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "BlazorServerApp",
       "SourceType": "Discovered",
-      "ContentRoot": "B:\\Test Projects\\Blazor SignalR Test\\BlazorServerApp\\wwwroot\\",
+      "ContentRoot": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\wwwroot\\",
       "BasePath": "_content/BlazorServerApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "B:\\Test Projects\\Blazor SignalR Test\\BlazorServerApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "BlazorServerApp",
       "SourceType": "Discovered",
-      "ContentRoot": "B:\\Test Projects\\Blazor SignalR Test\\BlazorServerApp\\wwwroot\\",
+      "ContentRoot": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\wwwroot\\",
       "BasePath": "_content/BlazorServerApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "B:\\Test Projects\\Blazor SignalR Test\\BlazorServerApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "BlazorServerApp",
       "SourceType": "Discovered",
-      "ContentRoot": "B:\\Test Projects\\Blazor SignalR Test\\BlazorServerApp\\wwwroot\\",
+      "ContentRoot": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\wwwroot\\",
       "BasePath": "_content/BlazorServerApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "B:\\Test Projects\\Blazor SignalR Test\\BlazorServerApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "BlazorServerApp",
       "SourceType": "Discovered",
-      "ContentRoot": "B:\\Test Projects\\Blazor SignalR Test\\BlazorServerApp\\wwwroot\\",
+      "ContentRoot": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\wwwroot\\",
       "BasePath": "_content/BlazorServerApp",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "B:\\Test Projects\\Blazor SignalR Test\\BlazorServerApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "BlazorServerApp",
       "SourceType": "Discovered",
-      "ContentRoot": "B:\\Test Projects\\Blazor SignalR Test\\BlazorServerApp\\wwwroot\\",
+      "ContentRoot": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\wwwroot\\",
       "BasePath": "_content/BlazorServerApp",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "B:\\Test Projects\\Blazor SignalR Test\\BlazorServerApp\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "BlazorServerApp",
       "SourceType": "Discovered",
-      "ContentRoot": "B:\\Test Projects\\Blazor SignalR Test\\BlazorServerApp\\wwwroot\\",
+      "ContentRoot": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\wwwroot\\",
       "BasePath": "_content/BlazorServerApp",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "B:\\Test Projects\\Blazor SignalR Test\\BlazorServerApp\\wwwroot\\css\\site.css",
+      "Identity": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\wwwroot\\css\\site.css",
       "SourceId": "BlazorServerApp",
       "SourceType": "Discovered",
-      "ContentRoot": "B:\\Test Projects\\Blazor SignalR Test\\BlazorServerApp\\wwwroot\\",
+      "ContentRoot": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\wwwroot\\",
       "BasePath": "_content/BlazorServerApp",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "B:\\Test Projects\\Blazor SignalR Test\\BlazorServerApp\\wwwroot\\favicon.ico",
+      "Identity": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\wwwroot\\favicon.ico",
       "SourceId": "BlazorServerApp",
       "SourceType": "Discovered",
-      "ContentRoot": "B:\\Test Projects\\Blazor SignalR Test\\BlazorServerApp\\wwwroot\\",
+      "ContentRoot": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\wwwroot\\",
       "BasePath": "_content/BlazorServerApp",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
