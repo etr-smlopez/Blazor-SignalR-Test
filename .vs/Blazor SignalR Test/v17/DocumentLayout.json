@@ -7,15 +7,15 @@
       "RelativeMoniker": "D:0:0:{105A7B1F-E2C4-434E-B611-4070849C3250}|BlazorServerApp\\BlazorServerApp.csproj|solutionrelative:blazorserverapp\\data\\vwcostunits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD0DAD78-5455-4869-93A6-2425C4C20858}|SampleForm\\SampleForm.csproj|b:\\github backup\\signalr-test-sample\\sampleform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD0DAD78-5455-4869-93A6-2425C4C20858}|SampleForm\\SampleForm.csproj|B:\\GitHub BackUp\\SignalR-Test-Sample\\sampleform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD0DAD78-5455-4869-93A6-2425C4C20858}|SampleForm\\SampleForm.csproj|solutionrelative:sampleform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6910011E-77D8-4514-ACEF-3E31F4587ED5}|DataAccess\\DataAccess.csproj|b:\\github backup\\signalr-test-sample\\dataaccess\\sql data\\sampledataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6910011E-77D8-4514-ACEF-3E31F4587ED5}|DataAccess\\DataAccess.csproj|B:\\GitHub BackUp\\SignalR-Test-Sample\\dataaccess\\sql data\\sampledataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6910011E-77D8-4514-ACEF-3E31F4587ED5}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\sql data\\sampledataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{105A7B1F-E2C4-434E-B611-4070849C3250}|BlazorServerApp\\BlazorServerApp.csproj|b:\\github backup\\signalr-test-sample\\blazorserverapp\\service\\costunitsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{105A7B1F-E2C4-434E-B611-4070849C3250}|BlazorServerApp\\BlazorServerApp.csproj|B:\\GitHub BackUp\\SignalR-Test-Sample\\blazorserverapp\\service\\costunitsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{105A7B1F-E2C4-434E-B611-4070849C3250}|BlazorServerApp\\BlazorServerApp.csproj|solutionrelative:blazorserverapp\\service\\costunitsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,11 +23,11 @@
       "RelativeMoniker": "D:0:0:{105A7B1F-E2C4-434E-B611-4070849C3250}|BlazorServerApp\\BlazorServerApp.csproj|solutionrelative:blazorserverapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD0DAD78-5455-4869-93A6-2425C4C20858}|SampleForm\\SampleForm.csproj|b:\\github backup\\signalr-test-sample\\sampleform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD0DAD78-5455-4869-93A6-2425C4C20858}|SampleForm\\SampleForm.csproj|B:\\GitHub BackUp\\SignalR-Test-Sample\\sampleform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD0DAD78-5455-4869-93A6-2425C4C20858}|SampleForm\\SampleForm.csproj|solutionrelative:sampleform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6910011E-77D8-4514-ACEF-3E31F4587ED5}|DataAccess\\DataAccess.csproj|b:\\github backup\\signalr-test-sample\\dataaccess\\model\\samplemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6910011E-77D8-4514-ACEF-3E31F4587ED5}|DataAccess\\DataAccess.csproj|B:\\GitHub BackUp\\SignalR-Test-Sample\\dataaccess\\model\\samplemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6910011E-77D8-4514-ACEF-3E31F4587ED5}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\model\\samplemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -58,8 +58,7 @@
               "RelativeToolTip": "DataAccess\\Model\\SampleModel.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T08:23:18.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T08:23:18.329Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "BlazorServerApp\\Service\\CostunitsService.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAAB4AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T08:13:39.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T08:13:39.375Z"
             },
             {
               "$type": "Document",
@@ -97,8 +95,7 @@
               "RelativeToolTip": "SampleForm\\Program.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAAwBEAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T07:29:41.513Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T07:29:41.513Z"
             },
             {
               "$type": "Document",
@@ -110,8 +107,7 @@
               "RelativeToolTip": "BlazorServerApp\\Data\\AppDbContext.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAgwBMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T06:41:20.062Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T06:41:20.062Z"
             },
             {
               "$type": "Document",
@@ -123,8 +119,7 @@
               "RelativeToolTip": "SampleForm\\Form1.cs",
               "ViewState": "AQIAAHgAAAAAAAAAAAAowIwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T03:32:57.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-11T03:32:57.53Z"
             },
             {
               "$type": "Document",
@@ -136,8 +131,7 @@
               "RelativeToolTip": "BlazorServerApp\\Data\\Employees.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-12T09:36:52.33Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-12T09:36:52.33Z"
             },
             {
               "$type": "Document",
@@ -149,8 +143,7 @@
               "RelativeToolTip": "DataAccess\\SQL Data\\SampleDataAccess.cs",
               "ViewState": "AQIAAEkAAAAAAAAAAAAAAFgAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T02:06:20.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-11T02:06:20.529Z"
             },
             {
               "$type": "Document",
@@ -162,8 +155,7 @@
               "RelativeToolTip": "BlazorServerApp\\Pages\\FetchData.razor",
               "ViewState": "AQIAAAoAAAAAAAAAAAAYwBQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-11T02:05:53.521Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-11T02:05:53.521Z"
             }
           ]
         }
