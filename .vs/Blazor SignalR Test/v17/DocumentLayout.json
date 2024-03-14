@@ -3,16 +3,60 @@
   "WorkspaceRootPath": "B:\\GitHub BackUp\\SignalR-Test-Sample\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{105A7B1F-E2C4-434E-B611-4070849C3250}|BlazorServerApp\\BlazorServerApp.csproj|b:\\github backup\\signalr-test-sample\\blazorserverapp\\data\\vwcostunits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{105A7B1F-E2C4-434E-B611-4070849C3250}|BlazorServerApp\\BlazorServerApp.csproj|solutionrelative:blazorserverapp\\data\\vwcostunits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FD0DAD78-5455-4869-93A6-2425C4C20858}|SampleForm\\SampleForm.csproj|B:\\GitHub BackUp\\SignalR-Test-Sample\\sampleform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD0DAD78-5455-4869-93A6-2425C4C20858}|SampleForm\\SampleForm.csproj|solutionrelative:sampleform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{105A7B1F-E2C4-434E-B611-4070849C3250}|BlazorServerApp\\BlazorServerApp.csproj|b:\\github backup\\signalr-test-sample\\blazorserverapp\\service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{105A7B1F-E2C4-434E-B611-4070849C3250}|BlazorServerApp\\BlazorServerApp.csproj|solutionrelative:blazorserverapp\\service\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{105A7B1F-E2C4-434E-B611-4070849C3250}|BlazorServerApp\\BlazorServerApp.csproj|B:\\GitHub BackUp\\SignalR-Test-Sample\\blazorserverapp\\hubs\\employeeshub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{105A7B1F-E2C4-434E-B611-4070849C3250}|BlazorServerApp\\BlazorServerApp.csproj|solutionrelative:blazorserverapp\\hubs\\employeeshub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{105A7B1F-E2C4-434E-B611-4070849C3250}|BlazorServerApp\\BlazorServerApp.csproj|b:\\github backup\\signalr-test-sample\\blazorserverapp\\data\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{105A7B1F-E2C4-434E-B611-4070849C3250}|BlazorServerApp\\BlazorServerApp.csproj|solutionrelative:blazorserverapp\\data\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6910011E-77D8-4514-ACEF-3E31F4587ED5}|DataAccess\\DataAccess.csproj|b:\\github backup\\signalr-test-sample\\dataaccess\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6910011E-77D8-4514-ACEF-3E31F4587ED5}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6910011E-77D8-4514-ACEF-3E31F4587ED5}|DataAccess\\DataAccess.csproj|B:\\GitHub BackUp\\SignalR-Test-Sample\\dataaccess\\sql data\\sampledataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6910011E-77D8-4514-ACEF-3E31F4587ED5}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\sql data\\sampledataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD0DAD78-5455-4869-93A6-2425C4C20858}|SampleForm\\SampleForm.csproj|B:\\GitHub BackUp\\SignalR-Test-Sample\\sampleform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD0DAD78-5455-4869-93A6-2425C4C20858}|SampleForm\\SampleForm.csproj|solutionrelative:sampleform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{105A7B1F-E2C4-434E-B611-4070849C3250}|BlazorServerApp\\BlazorServerApp.csproj|b:\\github backup\\signalr-test-sample\\blazorserverapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{105A7B1F-E2C4-434E-B611-4070849C3250}|BlazorServerApp\\BlazorServerApp.csproj|solutionrelative:blazorserverapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{105A7B1F-E2C4-434E-B611-4070849C3250}|BlazorServerApp\\BlazorServerApp.csproj|B:\\GitHub BackUp\\SignalR-Test-Sample\\blazorserverapp\\pages\\fetchdata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{105A7B1F-E2C4-434E-B611-4070849C3250}|BlazorServerApp\\BlazorServerApp.csproj|solutionrelative:blazorserverapp\\pages\\fetchdata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD0DAD78-5455-4869-93A6-2425C4C20858}|SampleForm\\SampleForm.csproj|b:\\github backup\\signalr-test-sample\\sampleform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FD0DAD78-5455-4869-93A6-2425C4C20858}|SampleForm\\SampleForm.csproj|solutionrelative:sampleform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{105A7B1F-E2C4-434E-B611-4070849C3250}|BlazorServerApp\\BlazorServerApp.csproj|b:\\github backup\\signalr-test-sample\\blazorserverapp\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{105A7B1F-E2C4-434E-B611-4070849C3250}|BlazorServerApp\\BlazorServerApp.csproj|solutionrelative:blazorserverapp\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6910011E-77D8-4514-ACEF-3E31F4587ED5}|DataAccess\\DataAccess.csproj|B:\\GitHub BackUp\\SignalR-Test-Sample\\dataaccess\\model\\samplemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6910011E-77D8-4514-ACEF-3E31F4587ED5}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\model\\samplemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{105A7B1F-E2C4-434E-B611-4070849C3250}|BlazorServerApp\\BlazorServerApp.csproj|b:\\github backup\\signalr-test-sample\\blazorserverapp\\hubs\\costunitshub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{105A7B1F-E2C4-434E-B611-4070849C3250}|BlazorServerApp\\BlazorServerApp.csproj|solutionrelative:blazorserverapp\\hubs\\costunitshub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{105A7B1F-E2C4-434E-B611-4070849C3250}|BlazorServerApp\\BlazorServerApp.csproj|B:\\GitHub BackUp\\SignalR-Test-Sample\\blazorserverapp\\data\\vwcostunits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{105A7B1F-E2C4-434E-B611-4070849C3250}|BlazorServerApp\\BlazorServerApp.csproj|solutionrelative:blazorserverapp\\data\\vwcostunits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{105A7B1F-E2C4-434E-B611-4070849C3250}|BlazorServerApp\\BlazorServerApp.csproj|B:\\GitHub BackUp\\SignalR-Test-Sample\\blazorserverapp\\service\\costunitsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,18 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{105A7B1F-E2C4-434E-B611-4070849C3250}|BlazorServerApp\\BlazorServerApp.csproj|B:\\GitHub BackUp\\SignalR-Test-Sample\\blazorserverapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{105A7B1F-E2C4-434E-B611-4070849C3250}|BlazorServerApp\\BlazorServerApp.csproj|solutionrelative:blazorserverapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD0DAD78-5455-4869-93A6-2425C4C20858}|SampleForm\\SampleForm.csproj|B:\\GitHub BackUp\\SignalR-Test-Sample\\sampleform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD0DAD78-5455-4869-93A6-2425C4C20858}|SampleForm\\SampleForm.csproj|solutionrelative:sampleform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6910011E-77D8-4514-ACEF-3E31F4587ED5}|DataAccess\\DataAccess.csproj|B:\\GitHub BackUp\\SignalR-Test-Sample\\dataaccess\\model\\samplemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6910011E-77D8-4514-ACEF-3E31F4587ED5}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\model\\samplemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{105A7B1F-E2C4-434E-B611-4070849C3250}|BlazorServerApp\\BlazorServerApp.csproj|B:\\GitHub BackUp\\SignalR-Test-Sample\\blazorserverapp\\pages\\fetchdata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{105A7B1F-E2C4-434E-B611-4070849C3250}|BlazorServerApp\\BlazorServerApp.csproj|solutionrelative:blazorserverapp\\pages\\fetchdata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{105A7B1F-E2C4-434E-B611-4070849C3250}|BlazorServerApp\\BlazorServerApp.csproj|B:\\GitHub BackUp\\SignalR-Test-Sample\\blazorserverapp\\data\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,19 +82,111 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SampleModel.cs",
-              "DocumentMoniker": "B:\\GitHub BackUp\\SignalR-Test-Sample\\DataAccess\\Model\\SampleModel.cs",
-              "RelativeDocumentMoniker": "DataAccess\\Model\\SampleModel.cs",
-              "ToolTip": "B:\\GitHub BackUp\\SignalR-Test-Sample\\DataAccess\\Model\\SampleModel.cs",
-              "RelativeToolTip": "DataAccess\\Model\\SampleModel.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAcAAAA",
+              "DocumentIndex": 3,
+              "Title": "Mapper.cs",
+              "DocumentMoniker": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\Data\\Mapper.cs",
+              "RelativeDocumentMoniker": "BlazorServerApp\\Data\\Mapper.cs",
+              "ToolTip": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\Data\\Mapper.cs",
+              "RelativeToolTip": "BlazorServerApp\\Data\\Mapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T08:23:18.329Z"
+              "WhenOpened": "2024-03-14T09:46:37.486Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "Mapper.cs",
+              "DocumentMoniker": "B:\\GitHub BackUp\\SignalR-Test-Sample\\DataAccess\\Mapper.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Mapper.cs",
+              "ToolTip": "B:\\GitHub BackUp\\SignalR-Test-Sample\\DataAccess\\Mapper.cs",
+              "RelativeToolTip": "DataAccess\\Mapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAowAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T09:45:23.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "B:\\GitHub BackUp\\SignalR-Test-Sample\\SampleForm\\Form1.cs",
+              "RelativeDocumentMoniker": "SampleForm\\Form1.cs",
+              "ToolTip": "B:\\GitHub BackUp\\SignalR-Test-Sample\\SampleForm\\Form1.cs",
+              "RelativeToolTip": "SampleForm\\Form1.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAkwDEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T03:32:57.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\Service\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "BlazorServerApp\\Service\\EmployeeService.cs",
+              "ToolTip": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\Service\\EmployeeService.cs",
+              "RelativeToolTip": "BlazorServerApp\\Service\\EmployeeService.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAQwDEAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T05:41:03.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.razor",
+              "DocumentMoniker": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "BlazorServerApp\\Pages\\Index.razor",
+              "ToolTip": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\Pages\\Index.razor",
+              "RelativeToolTip": "BlazorServerApp\\Pages\\Index.razor",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-14T03:26:07.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CostUnitsHub.cs",
+              "DocumentMoniker": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\Hubs\\CostUnitsHub.cs",
+              "RelativeDocumentMoniker": "BlazorServerApp\\Hubs\\CostUnitsHub.cs",
+              "ToolTip": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\Hubs\\CostUnitsHub.cs",
+              "RelativeToolTip": "BlazorServerApp\\Hubs\\CostUnitsHub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T03:16:21.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeesHub.cs",
+              "DocumentMoniker": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\Hubs\\EmployeesHub.cs",
+              "RelativeDocumentMoniker": "BlazorServerApp\\Hubs\\EmployeesHub.cs",
+              "ToolTip": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\Hubs\\EmployeesHub.cs",
+              "RelativeToolTip": "BlazorServerApp\\Hubs\\EmployeesHub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T03:16:17.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FetchData.razor",
+              "DocumentMoniker": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\Pages\\FetchData.razor",
+              "RelativeDocumentMoniker": "BlazorServerApp\\Pages\\FetchData.razor",
+              "ToolTip": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\Pages\\FetchData.razor",
+              "RelativeToolTip": "BlazorServerApp\\Pages\\FetchData.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-11T02:05:53.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "CostunitsService.cs",
               "DocumentMoniker": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\Service\\CostunitsService.cs",
               "RelativeDocumentMoniker": "BlazorServerApp\\Service\\CostunitsService.cs",
@@ -74,32 +198,70 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 13,
               "Title": "vwCostUnits.cs",
               "DocumentMoniker": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\Data\\vwCostUnits.cs",
               "RelativeDocumentMoniker": "BlazorServerApp\\Data\\vwCostUnits.cs",
               "ToolTip": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\Data\\vwCostUnits.cs",
               "RelativeToolTip": "BlazorServerApp\\Data\\vwCostUnits.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAABAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T08:02:31.85Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-13T08:02:31.85Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "B:\\GitHub BackUp\\SignalR-Test-Sample\\SampleForm\\Program.cs",
               "RelativeDocumentMoniker": "SampleForm\\Program.cs",
               "ToolTip": "B:\\GitHub BackUp\\SignalR-Test-Sample\\SampleForm\\Program.cs",
               "RelativeToolTip": "SampleForm\\Program.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBEAAAA6AAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAD4vxIAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T07:29:41.513Z"
+              "WhenOpened": "2024-03-13T07:29:41.513Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
+              "Title": "SampleDataAccess.cs",
+              "DocumentMoniker": "B:\\GitHub BackUp\\SignalR-Test-Sample\\DataAccess\\SQL Data\\SampleDataAccess.cs",
+              "RelativeDocumentMoniker": "DataAccess\\SQL Data\\SampleDataAccess.cs",
+              "ToolTip": "B:\\GitHub BackUp\\SignalR-Test-Sample\\DataAccess\\SQL Data\\SampleDataAccess.cs",
+              "RelativeToolTip": "DataAccess\\SQL Data\\SampleDataAccess.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAYwGMAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T02:06:20.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "B:\\GitHub BackUp\\SignalR-Test-Sample\\SampleForm\\Form1.cs",
+              "RelativeDocumentMoniker": "SampleForm\\Form1.cs",
+              "ToolTip": "B:\\GitHub BackUp\\SignalR-Test-Sample\\SampleForm\\Form1.cs [Design]",
+              "RelativeToolTip": "SampleForm\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T06:45:24.025Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorServerApp\\Program.cs",
+              "ToolTip": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\Program.cs",
+              "RelativeToolTip": "BlazorServerApp\\Program.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T07:47:03.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "BlazorServerApp\\Data\\AppDbContext.cs",
@@ -111,19 +273,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "B:\\GitHub BackUp\\SignalR-Test-Sample\\SampleForm\\Form1.cs",
-              "RelativeDocumentMoniker": "SampleForm\\Form1.cs",
-              "ToolTip": "B:\\GitHub BackUp\\SignalR-Test-Sample\\SampleForm\\Form1.cs",
-              "RelativeToolTip": "SampleForm\\Form1.cs",
-              "ViewState": "AQIAAHgAAAAAAAAAAAAowIwAAAABAAAA",
+              "DocumentIndex": 11,
+              "Title": "SampleModel.cs",
+              "DocumentMoniker": "B:\\GitHub BackUp\\SignalR-Test-Sample\\DataAccess\\Model\\SampleModel.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Model\\SampleModel.cs",
+              "ToolTip": "B:\\GitHub BackUp\\SignalR-Test-Sample\\DataAccess\\Model\\SampleModel.cs",
+              "RelativeToolTip": "DataAccess\\Model\\SampleModel.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T03:32:57.53Z"
+              "WhenOpened": "2024-03-13T08:23:18.329Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "Employees.cs",
               "DocumentMoniker": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\Data\\Employees.cs",
               "RelativeDocumentMoniker": "BlazorServerApp\\Data\\Employees.cs",
@@ -132,30 +295,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-12T09:36:52.33Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SampleDataAccess.cs",
-              "DocumentMoniker": "B:\\GitHub BackUp\\SignalR-Test-Sample\\DataAccess\\SQL Data\\SampleDataAccess.cs",
-              "RelativeDocumentMoniker": "DataAccess\\SQL Data\\SampleDataAccess.cs",
-              "ToolTip": "B:\\GitHub BackUp\\SignalR-Test-Sample\\DataAccess\\SQL Data\\SampleDataAccess.cs",
-              "RelativeToolTip": "DataAccess\\SQL Data\\SampleDataAccess.cs",
-              "ViewState": "AQIAAEkAAAAAAAAAAAAAAFgAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-11T02:06:20.529Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FetchData.razor",
-              "DocumentMoniker": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\Pages\\FetchData.razor",
-              "RelativeDocumentMoniker": "BlazorServerApp\\Pages\\FetchData.razor",
-              "ToolTip": "B:\\GitHub BackUp\\SignalR-Test-Sample\\BlazorServerApp\\Pages\\FetchData.razor",
-              "RelativeToolTip": "BlazorServerApp\\Pages\\FetchData.razor",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAYwBQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-11T02:05:53.521Z"
             }
           ]
         }

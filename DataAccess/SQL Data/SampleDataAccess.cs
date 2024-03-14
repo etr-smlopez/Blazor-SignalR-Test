@@ -58,7 +58,7 @@ namespace DataAccess
                 output.Add(new() { FirstName = "B", LastName = "BB" });
                 output.Add(new() { FirstName = "C", LastName = "CC" });
 
-                await Task.Delay(3000);
+                await Task.Delay(1000);
 
                 _memoryCache.Set("employees", output, TimeSpan.FromMinutes(1));
             }
@@ -66,29 +66,35 @@ namespace DataAccess
             return output;
         }
 
-        public async Task<List<EmployeeModel>>  EmployeesToCache()
+        public void AddEmployeesToCache(List<EmployeeModel> employees)
         {
-            List<EmployeeModel> output;
+            var cachedEmployees = _memoryCache.Get<List<EmployeeModel>>("Employees");
 
-            output = _memoryCache.Get<List<EmployeeModel>>("Employees");
-    
-            if (output is null)
+            if (cachedEmployees == null)
             {
-                output = new();
-                output = _memoryCache.Set("Employees", output, new MemoryCacheEntryOptions
+                _memoryCache.Set("Employees", employees, new MemoryCacheEntryOptions
                 {
                     AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(1)
                 });
-            }
+            }     //var cachedEmployees = _memoryCache.Get("Employees");
 
-            return output;
-        }
-        public void AddEmployeesToCache(List<EmployeeModel> employees)
-        {
-            _memoryCache.Set("Employees", employees, new MemoryCacheEntryOptions
-            {
-                AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(1)
-            });
+            //if (cachedEmployees != null)
+            //{
+            //    _memoryCache.GetOrCreate("Employees", employees =>
+            //    {
+            //        employees.AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(1);
+            //        return new List<EmployeeModel>();
+            //    });
+            //}
+            //else
+            //{
+            // //   _memoryCache.Set("employees", output, TimeSpan.FromMinutes(1));
+            //    _memoryCache.Set("Employees", employees, new MemoryCacheEntryOptions
+            //    {
+            //        AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(1)
+            //    });
+            //}
+
         }
 
         public List<EmployeeModel> GetEmployeesFromCache()
@@ -102,13 +108,14 @@ namespace DataAccess
          
         public void AddCostUnitsToCache(List<CostUnitsModel> employees)
         {
+
             _memoryCache.Set("CostUnits", employees, new MemoryCacheEntryOptions
             {
                 AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(1)
             });
         }
 
-        public List<CostUnitsModel> GetCostUnitsFromCache()
+        public async Task<List<CostUnitsModel>> GetCostUnitsFromCache()
         {
             return _memoryCache.GetOrCreate("CostUnits", entry =>
             {

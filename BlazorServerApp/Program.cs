@@ -29,6 +29,7 @@ builder.Services.AddResponseCompression(opts =>
 });
 
 var app = builder.Build();
+app.UseResponseCompression();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

@@ -1,4 +1,4 @@
- 
+
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,6 +15,7 @@ using Microsoft.Extensions.Caching.Memory;
 using Microsoft.AspNetCore.SignalR.Client;
 using BlazorServerApp.Service;
 using DataAccess.Model;
+using System.Data.Common;
 
 namespace SampleForm
 {
@@ -23,7 +24,7 @@ namespace SampleForm
         private readonly SampleDataAccess data;
         private List<EmployeeModel> employees;
         private List<Employees> EmployeeList = new List<Employees>();
-         private List<vwCostUnits> costunitsList = new List<vwCostUnits>();
+        private List<vwCostUnits> costunitsList = new List<vwCostUnits>();
         private HubConnection HubConnection;
         private EmployeeService employeeService;
         private CostunitsService costunitsService;
@@ -31,6 +32,7 @@ namespace SampleForm
         public Form1(EmployeeService employeeService, CostunitsService costunitsService)
         {
             InitializeComponent();
+            InitializeSignalR();
             var memoryCache = new MemoryCache(new MemoryCacheOptions());
 
             data = new SampleDataAccess(memoryCache);
@@ -38,26 +40,40 @@ namespace SampleForm
             this.costunitsService = costunitsService;
 
             Load += Form1_Load;
-            LoadEmployees();
+           // LoadEmployees();
         }
+        private async void InitializeSignalR()
+        {
+            HubConnection = new HubConnectionBuilder()
+                .WithUrl("https://localhost:7153/employeeshub") // Replace with your SignalR Hub URL
+                .Build();
 
+            try
+            {
+                await HubConnection.StartAsync();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error connecting to SignalR Hub: {ex.Message}");
+            }
+        }
         private async void Form1_Load(object sender, EventArgs e)
         {
             employees = await data.GetEmployeesCache();
-          
+
             UpdateUI();
-            LoadEmployees();
+        LoadEmployees();
         }
         private async void LoadEmployees()
         {
             EmployeeList = await employeeService.GetAllEmployees();
             costunitsList = await costunitsService.GetCostUnits();
-    
+
             // Add the list of employees to the cache
             data.AddEmployeesToCache(EmployeeList.Select(e => new EmployeeModel
             {
                 FirstName = e.FirstName,
-                LastName = e.LastName,
+                LastName = e.LastName
                 // Add other properties as needed
             }).ToList());
 
@@ -82,7 +98,9 @@ namespace SampleForm
             //    await HubConnection.StartAsync();
             //}
         }
+      
 
+      
         protected override void OnFormClosing(FormClosingEventArgs e)
         {
             if (HubConnection != null)
@@ -114,7 +132,6 @@ namespace SampleForm
             //    dataGridView1.Rows.Add(employee.FirstName, employee.LastName /* other properties */);
             //}
             //dataGridView1.Refresh();
-
             if (EmployeeList is not null)
             {
                 dataGridView1.DataSource = EmployeeList;
@@ -134,8 +151,29 @@ namespace SampleForm
             {
                 label1.Text = "Loading...";
             }
+
+
+            LoadEmployees();
+        }
+
+        private async void button1_Click(object sender, EventArgs e)
+        {
+
+            UpdateUI();
+            EmployeeList = await employeeService.GetAllEmployees();
+
+            // Call the UpdateEmployees method on the SignalR Hub
+            try
+            {
+                await HubConnection.InvokeAsync("RefreshEmployees", EmployeeList);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error updating employees: {ex.Message}");
+            }
         }
     }
 
 }
- 
+
+
